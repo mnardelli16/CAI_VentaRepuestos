@@ -1,0 +1,6 @@
+C:\Users\MNARDELLI\Documents\GitHub\CAI_VentaRepuestos\CAI_VentaRepuestos\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\MNARDELLI\Documents\GitHub\CAI_VentaRepuestos\CAI_VentaRepuestos\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\MNARDELLI\Documents\GitHub\CAI_VentaRepuestos\CAI_VentaRepuestos\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache
+C:\Users\MNARDELLI\Documents\GitHub\CAI_VentaRepuestos\CAI_VentaRepuestos\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\MNARDELLI\Documents\GitHub\CAI_VentaRepuestos\CAI_VentaRepuestos\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\MNARDELLI\Documents\GitHub\CAI_VentaRepuestos\CAI_VentaRepuestos\ClassLibrary\obj\Debug\ClassLibrary.pdb
