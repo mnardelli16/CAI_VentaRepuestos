@@ -38,6 +38,7 @@ namespace ClassLibrary.Entidades
         public Categoria Categorias
         {
             get { return this._categoria; }
+            set { this._categoria = value; }
         }
 
         public Repuesto()
@@ -45,10 +46,19 @@ namespace ClassLibrary.Entidades
 
         }
 
+        public Repuesto(int codigo, string nombre, double precio, int stock, Categoria catego)
+        {
+            this._codigo = codigo;
+            this._nombre = nombre;
+            this._precio = precio;
+            this._stock = stock;
+            this._categoria = catego;
+        }
+
         public override string ToString()
         {
             return string.Format("Codigo: {0} - Nombre: {1} - Precio: {2} - Stock: {3} - Categoria: {4}",
-                                this._codigo, this._nombre, this._precio, this._stock, this._categoria);
+                                this._codigo, this._nombre, this._precio, this._stock, this._categoria.Codigo);
         }
     }
 }

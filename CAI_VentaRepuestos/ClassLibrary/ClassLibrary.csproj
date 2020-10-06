@@ -44,10 +44,13 @@
     <Compile Include="Entidades\Categoria.cs" />
     <Compile Include="Entidades\Repuesto.cs" />
     <Compile Include="Entidades\VentaRepuestos.cs" />
+    <Compile Include="Exceptions\ListaVaciaCategoriaException.cs" />
+    <Compile Include="Exceptions\ListaVaciaRepuestoException.cs" />
+    <Compile Include="Exceptions\QuitarStockException.cs" />
+    <Compile Include="Exceptions\RepuestoConStockException.cs" />
+    <Compile Include="Exceptions\RepuestoInexistenteException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Exceptions\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

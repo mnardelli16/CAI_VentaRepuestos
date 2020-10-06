@@ -22,5 +22,26 @@ namespace ClassLibrary.Entidades
             get { return this._nombre; }
             set { this._nombre = value; }
         }
+
+        public Categoria()
+        {
+
+        }
+
+        public Categoria(int codigo, string nombre)
+        {
+            this._codigo = codigo;
+            this._nombre = nombre;
+        }
+
+        public virtual int GetCodigo()
+        {
+            return this._codigo;
+        }
+
+        public override string ToString()
+        {
+            return this._codigo.ToString();
+        }
     }
 }

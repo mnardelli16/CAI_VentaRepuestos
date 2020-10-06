@@ -49,5 +49,75 @@ namespace ProyectoConsola.Entidades
             }
             return flag;
         }
+
+        public bool ValidarCodigoRepuesto(string a, ref int salida)
+        {
+            bool flag = false;
+
+            if (!Int32.TryParse(a, out salida))
+            {
+                H.MostrarMensaje("Debe ingresar un numero");
+            }
+            else if (salida <= 0)
+            {
+                H.MostrarMensaje("El codigo debe ser mayor a 0");
+            }
+            else
+            {
+                flag = true;
+            }
+            return flag;
+        }
+
+        public bool ValidarStringNULL(string a)
+        {
+            bool flag = false;
+            if (string.IsNullOrWhiteSpace(a))
+            {
+                H.MostrarMensaje("No debe dejar espacios en blanco");
+            }
+            else
+            {
+                flag = true;
+            }
+            return flag;
+        }
+        public bool ValidarPrecio(string a, ref double salida)
+        {
+            bool flag = false;
+
+            if (!double.TryParse(a, out salida))
+            {
+                H.MostrarMensaje("Debe ingresar un numero");
+            }
+            else if (salida <= 0)
+            {
+                H.MostrarMensaje("El precio debe ser mayor a 0");
+            }
+            else
+            {
+                flag = true;
+            }
+            return flag;
+        }
+
+        public bool ValidarStock(string a, ref int salida)
+        {
+            bool flag = false;
+
+            if (!Int32.TryParse(a, out salida))
+            {
+                H.MostrarMensaje("Debe ingresar un numero");
+            }
+            else if (salida < 0)
+            {
+                H.MostrarMensaje("El stock debe ser mayor a 0");
+            }
+            else
+            {
+                flag = true;
+            }
+            return flag;
+        }
     }
 }
